@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".UpdateDeleteCelebrity">
+
+
+    <EditText
+        android:id="@+id/etUpdateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="150dp"
+        android:inputType="textPersonName"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/etUpdateTaboo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Taboo 1"/>
+
+    <EditText
+        android:id="@+id/etUpdateTaboo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Taboo 2"/>
+
+    <EditText
+        android:id="@+id/etUpdateTaboo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Taboo 3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:text="Delete Celebrity"
+            app:backgroundTint="#FF8A80" />
+
+        <Button
+            android:id="@+id/btUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:text="Update Celebrity"
+            app:backgroundTint="#FFD180" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btUpdateBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:backgroundTint="#D0CDD5" />
+</LinearLayout>

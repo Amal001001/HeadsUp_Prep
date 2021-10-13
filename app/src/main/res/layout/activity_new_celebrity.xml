@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".NewCelebrity">
+
+
+    <EditText
+        android:id="@+id/etNewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="150dp"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/etNewTaboo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Taboo 1"/>
+
+    <EditText
+        android:id="@+id/etNewTaboo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Taboo 2"/>
+
+    <EditText
+        android:id="@+id/etNewTaboo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Taboo 3"/>
+
+    <Button
+        android:id="@+id/bNewAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add Celebrity"
+        app:backgroundTint="#99E69D" />
+
+    <Button
+        android:id="@+id/bNewBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:backgroundTint="#D0CDD5" />
+</LinearLayout>
